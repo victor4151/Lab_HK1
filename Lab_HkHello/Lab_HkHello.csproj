@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B9DDFADB-4DC9-4CBB-95CA-3C8B6E2CF264}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Lab_HkHello</RootNamespace>
+    <AssemblyName>Lab_HkHello</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Frm_Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Alarm.Designer.cs">
+      <DependentUpon>Frm_Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_DrawPaint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_DrawPaint.Designer.cs">
+      <DependentUpon>Frm_DrawPaint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Guess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Guess.Designer.cs">
+      <DependentUpon>Frm_Guess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_GuessTable.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_GuessTable.Designer.cs">
+      <DependentUpon>Frm_GuessTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_HomPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_HomPage.Designer.cs">
+      <DependentUpon>Frm_HomPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Method.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Method.Designer.cs">
+      <DependentUpon>Frm_Method.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_MyClac.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_MyClac.Designer.cs">
+      <DependentUpon>Frm_MyClac.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Notepad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Notepad.Designer.cs">
+      <DependentUpon>Frm_Notepad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Notepad_about.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Notepad_about.Designer.cs">
+      <DependentUpon>Frm_Notepad_about.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Pos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Pos.Designer.cs">
+      <DependentUpon>Frm_Pos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_ScreenSaver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_ScreenSaver.Designer.cs">
+      <DependentUpon>Frm_ScreenSaver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_StudentGrade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_StudentGrade.Designer.cs">
+      <DependentUpon>Frm_StudentGrade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Student_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Student_Form.Designer.cs">
+      <DependentUpon>Frm_Student_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_student_structFrom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_student_structFrom.Designer.cs">
+      <DependentUpon>Frm_student_structFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Viewer.Designer.cs">
+      <DependentUpon>Frm_Viewer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_xoGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_xoGame.Designer.cs">
+      <DependentUpon>Frm_xoGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hello.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hello.Designer.cs">
+      <DependentUpon>Hello.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Principal.Designer.cs">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalReport.Designer.cs">
+      <DependentUpon>PrincipalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utility.cs" />
+    <Compile Include="Viewer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Viewer.Designer.cs">
+      <DependentUpon>Viewer.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Frm_Alarm.resx">
+      <DependentUpon>Frm_Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_DrawPaint.resx">
+      <DependentUpon>Frm_DrawPaint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Guess.resx">
+      <DependentUpon>Frm_Guess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_GuessTable.resx">
+      <DependentUpon>Frm_GuessTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_HomPage.resx">
+      <DependentUpon>Frm_HomPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Method.resx">
+      <DependentUpon>Frm_Method.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_MyClac.resx">
+      <DependentUpon>Frm_MyClac.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Notepad.resx">
+      <DependentUpon>Frm_Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Notepad_about.resx">
+      <DependentUpon>Frm_Notepad_about.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Pos.resx">
+      <DependentUpon>Frm_Pos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_ScreenSaver.resx">
+      <DependentUpon>Frm_ScreenSaver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_StudentGrade.resx">
+      <DependentUpon>Frm_StudentGrade.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Student_Form.resx">
+      <DependentUpon>Frm_Student_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_student_structFrom.resx">
+      <DependentUpon>Frm_student_structFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Viewer.resx">
+      <DependentUpon>Frm_Viewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_xoGame.resx">
+      <DependentUpon>Frm_xoGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hello.resx">
+      <DependentUpon>Hello.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Principal.resx">
+      <DependentUpon>Principal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalReport.resx">
+      <DependentUpon>PrincipalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Viewer.resx">
+      <DependentUpon>Viewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
